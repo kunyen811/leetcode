@@ -41,6 +41,7 @@ class Solution(object):
                 l2 = l2.next
                 p = p.next 
         
+        # if the last digit carry == 1, we need to add one more digit to the next node
         if carry == 1:
             p.next = ListNode(1)
         
